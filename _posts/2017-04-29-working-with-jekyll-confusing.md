@@ -12,4 +12,4 @@ Thanks for checking this out! Stay tuned for more!
 
 Josh
 
-P.S. Here's a picture of why I'm doing what I'm doing. ! [A picture of my family](stewartblog/_assets/my_family.jpg)
+P.S. Here's a picture of why I'm doing what I'm doing. ! [A picture of my family](http://jmstewart00.github.io/stewartblog/_assets/my_family.jpg)
