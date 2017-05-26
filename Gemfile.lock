@@ -203,8 +203,6 @@ DEPENDENCIES
   jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
   jekyll-theme-basically-basic
-  jekyll-theme-midnight
-  minima (~> 2.0)
   tzinfo-data
 
 RUBY VERSION
