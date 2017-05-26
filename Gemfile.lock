@@ -119,6 +119,12 @@ GEM
     jekyll-swiss (0.4.0)
     jekyll-theme-architect (0.0.4)
       jekyll (~> 3.3)
+    jekyll-theme-basically-basic (1.1.0)
+      jekyll (~> 3.3)
+      jekyll-feed (~> 0.8)
+      jekyll-paginate (~> 1.1)
+      jekyll-seo-tag (~> 2.1)
+      jekyll-sitemap (~> 1.0)
     jekyll-theme-cayman (0.0.4)
       jekyll (~> 3.3)
     jekyll-theme-dinky (0.0.4)
@@ -196,6 +202,7 @@ DEPENDENCIES
   github-pages (= 138)
   jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
+  jekyll-theme-basically-basic
   jekyll-theme-midnight
   minima (~> 2.0)
   tzinfo-data

@@ -27,7 +27,7 @@ github_username:  jmstewart00
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-basically-basic
 gems:
   - jekyll-feed
 exclude:
