@@ -17,9 +17,9 @@ My why is my girls. They are why I'm doing what I'm doing. It's why I'm going to
 
 Here's a picture of them for you! Hope you enjoy!
 
-![Avery, my oldest](/stewartblog/images/Daughter1.jpg) {:class="img-responsive col-md-4"}
-![Teagan, the middle kid!](/stewartblog/images/Daughter2.jpg) {:class="img-responsive col-md-4"}
-![Piper, the youngest](/stewartblog/images/Daughter3.jpg) {:class="img-responsive col-md-4"}
+![Avery, my oldest](/stewartblog/images/Daughter1.jpg){:class="img-responsive col-md-4"}
+![Teagan, the middle kid!](/stewartblog/images/Daughter2.jpg){:class="img-responsive col-md-4"}
+![Piper, the youngest](/stewartblog/images/Daughter3.jpg){:class="img-responsive col-md-4"}
 
 
 Thanks.
