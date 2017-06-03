@@ -24,7 +24,11 @@ Anyway- thanks for checking in.
 If you've got an idea for a sweet project that I could work on that you've been thinking about or you think I could provide a service to you, I'm still looking for a final project to work on for the class. It's gonna be big and I want it to be "right" for me. 
 
 [miWeather](https://jmstewart00.github.io/weatherapp/index.html) - find your local current conditions via zipcode
-[calulator](https://jmstewart00.github.io/calculator/index.html) - do some basic math. It's super buggy though. Good luck.
+
+
+[calculator](https://jmstewart00.github.io/calculator/index.html) - do some basic math. It's super buggy though. Good luck.
+
+[tictactoe](https://jmstewart00.github.io/tictactoe/index.html) - Play a little tic-tac-toe.
 
 ![Screenshot of Minesweeper Clone](/stewartblog/images/MinesweeperSneakPeek.png){:class="img-responsive col-md-4"}
 
