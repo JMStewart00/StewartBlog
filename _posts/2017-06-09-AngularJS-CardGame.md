@@ -30,9 +30,12 @@ It's important to point out the thought process that gets me through the beginni
 From here I'll periodically write about my progress on this project with subsequent posts. I am not even close to finishing it, I just want to share with you two really awesome features I've used so far with AngularJS and a pretty famous shuffle method.
 
 #### Requirements
+
 Multiplayer - not done yet.
 Score Tracking - not done yet. 
-######Cards are generated via `ng-repeat`
+
+##### Cards are generated via `ng-repeat`
+
 This is a pretty cool feature that comes with AngularJS. It essentially creates some things for you in your HTML file, or REPEATS a process for you.
 
 So for this I used it on an element in my file to repeat the creation and display of the 52 cards (or slightly altered version that I'm using right now of 48 cards).
@@ -67,7 +70,7 @@ In turn this allowed me to generate all the cards in my "deck" with just one lin
 
 ![How Neat is That?](https://media.giphy.com/media/CWKcLd53mbw0o/giphy.gif){:class="img-responsive col-md-4"}
 
-######Cards are randomly shuffled
+##### Cards are randomly shuffled
 
 This is the second part I got to after my first few hours of work with AngularJS on this project. I used a pretty famous FISHER YATES shuffle method. It's pretty widely used as a random shuffler and it works like a charm. 
 
@@ -97,6 +100,7 @@ When you're down to 10 cards left, I want you to shuffle the remaining cards eve
 Win and draw state
 
 #### Technologies
+
 * gulp: practice setting up a project using gulp. Gulp can help automate a lot of your tasks!
 * sass/bootstrap: practice using css frameworks!
 * angularJs: explore the many functions angular has to offer! (e.g. ng-repeat, ng-if, ng-hide, etc.)
