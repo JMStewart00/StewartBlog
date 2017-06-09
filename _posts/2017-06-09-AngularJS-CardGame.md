@@ -39,7 +39,8 @@ So for this I used it on an element in my file to repeat the creation and displa
 
 Below I'm creating my deck of cards and pushing them into an object for later use in using ng-repeat for the cards.
 
-```$scope.cards = [];
+{ % highlight javascript % }
+$scope.cards = [];
 	$scope.createDeck = function(){
 		this.names = ['A', 'A', '10', '10', 'J', 'J', 'Q', 'Q', 'K', 'K', '9', '9'];
 		this.suits = ['\u2661','\u2662','\u2660','\u2663'];
@@ -53,7 +54,8 @@ Below I'm creating my deck of cards and pushing them into an object for later us
 	    }
 	    return this.cards;
 	}
-	$scope.createDeck();```
+	$scope.createDeck();
+{ % endhighlight % }
 
 The above code takes two arrays (collection of values), iterates over both of them and joins each together to create the cards. I used some slick UNICODE values in there to help grab the actual suit icons which I love. 
 
@@ -69,28 +71,26 @@ In turn this allowed me to generate all the cards in my "deck" with just one lin
 
 This is the second part I got to after my first few hours of work with AngularJS on this project. I used a pretty famous FISHER YATES shuffle method. It's pretty widely used as a random shuffler and it works like a charm. 
 
-```	// Card Shuffling - FISHER YATES SHUFFLE
+{ % highlight javascript % }
 
+// Card Shuffling - FISHER YATES SHUFFLE
 	$scope.shuffleDeck = function(cards) {
   		var currentIndex = $scope.cards.length, temporaryValue, randomIndex;
-
   			// While there remain elements to shuffle...
   			while (0 !== currentIndex) {
-
     		// Pick a remaining element...
     		randomIndex = Math.floor(Math.random() * currentIndex);
     		currentIndex -= 1;
-
    			 // And swap it with the current element.
     		temporaryValue = $scope.cards[currentIndex];
     		$scope.cards[currentIndex] = $scope.cards[randomIndex];
     		$scope.cards[randomIndex] = temporaryValue;
   }
-
   return $scope.cards;
 }
+	$scope.shuffleDeck();
 
-	$scope.shuffleDeck();```
+{ % endhighlight % }
 
 Sexy animation of card flips
 When you're down to 10 cards left, I want you to shuffle the remaining cards every round
