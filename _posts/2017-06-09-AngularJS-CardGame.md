@@ -63,7 +63,7 @@ I used the code above in my HTML document with the `ng-repeat` method.
 
 In turn this allowed me to generate all the cards in my "deck" with just one line of code in my HTML. 
 
-![How Neat is That?](http://gph.is/2azZ80q){:class="img-responsive col-md-4"}
+![How Neat is That?](https://media.giphy.com/media/CWKcLd53mbw0o/giphy.gif){:class="img-responsive col-md-4"}
 
 ######Cards are randomly shuffled
 
