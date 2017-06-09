@@ -34,7 +34,7 @@ From here I'll periodically write about my progress on this project with subsequ
 Multiplayer - not done yet.
 Score Tracking - not done yet. 
 
-##### Cards are generated via `ng-repeat`
+#### Cards are generated via `ng-repeat`
 
 This is a pretty cool feature that comes with AngularJS. It essentially creates some things for you in your HTML file, or REPEATS a process for you.
 
@@ -42,7 +42,7 @@ So for this I used it on an element in my file to repeat the creation and displa
 
 Below I'm creating my deck of cards and pushing them into an object for later use in using ng-repeat for the cards.
 
-{ % highlight javascript % }
+{ % highlight css % }
 $scope.cards = [];
 	$scope.createDeck = function(){
 		this.names = ['A', 'A', '10', '10', 'J', 'J', 'Q', 'Q', 'K', 'K', '9', '9'];
@@ -70,11 +70,11 @@ In turn this allowed me to generate all the cards in my "deck" with just one lin
 
 ![How Neat is That?](https://media.giphy.com/media/CWKcLd53mbw0o/giphy.gif){:class="img-responsive col-md-4"}
 
-##### Cards are randomly shuffled
+#### Cards are randomly shuffled
 
 This is the second part I got to after my first few hours of work with AngularJS on this project. I used a pretty famous FISHER YATES shuffle method. It's pretty widely used as a random shuffler and it works like a charm. 
 
-{ % highlight javascript % }
+{ % highlight css % }
 
 // Card Shuffling - FISHER YATES SHUFFLE
 	$scope.shuffleDeck = function(cards) {
