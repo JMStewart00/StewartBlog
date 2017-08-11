@@ -25,7 +25,7 @@ For the past 10 days I've been putting together my final project. By myself, 12-
 
 My project, a tinder-style app to help you and your group of friends or your hot date make a quick, non-confrontational way of deciding where to eat that night. So for version one of my 10-day sprint I can up with this app. It's bug-riddled. It takes forever to load sometimes. But for the most part it does what I want it to do and it's a good first step into a pretty good idea. 
 
-Take a look for yourself. Here's a link to [SWiTHER](swither1.herokuapp.com). Enjoy this a little bit. Create an account and log-in. Create a group. Try it out. It's pretty cool, in my opinion. 
+Take a look for yourself. Here's a link to [SWiTHER](https://swither1.herokuapp.com). Enjoy this a little bit. Create an account and log-in. Create a group. Try it out. It's pretty cool, in my opinion. 
 
 (NOTE: If you go to register and nothing happens it's the way the websites work that I'm using. Give it a minute and try to log in with the credentials you just tried to register with. It's version 1 after all)
 
