@@ -13,13 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Josh Stewart's Bootcamp S17
+title: Developing, Failing, Trying Again, Developing Some More
 email: jmstewart00@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This blog will serve as a way to update those keeping tabs on me
-  in both the immediately surrounding area of Central Kentucky and
-  back home in my home state of Maryland. I appreciate all the support
-  and, in the end, hope you enjoy keeping up with me. 
+  This blog will serve as a look back on the events that led to becoming a software and web developer, along with a way to track my lessons learned along the way. 
 baseurl: /stewartblog # the subpath of your site, e.g. /blog
 url: http://jmstewart00.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CoachStewart7
