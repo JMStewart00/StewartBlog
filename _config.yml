@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Developing, Failing, Trying Again, Developing Some More
+title: Develop. Fail. Try Again. Repeat.
 email: jmstewart00@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This blog will serve as a look back on the events that led to becoming a software and web developer, along with a way to track my lessons learned along the way. 
