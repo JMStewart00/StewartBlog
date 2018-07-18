@@ -11,7 +11,7 @@ From: [Acquia's Blog on Mistakes](https://dev.acquia.com/blog/5-mistakes-to-avoi
 
 Here's the key points!
 
-#Architecture: Content
+## Architecture: Content
 Content is the essence of your website, the reason it exists. Determining the structure of content is the first
 step in creating website architecture.
 
@@ -20,14 +20,14 @@ Plan your content structures, including fields and content types. Clear content 
 good performance, a better user experience, and easier maintenance. You will find overlap here with Display Architecture, because Views often depends on fields available in specific types.
 
 
-#Architecture: Display
+## Architecture: Display
 Drupal is a powerful tool for displaying content in different regions, formats, and displays. Display
 architecture includes the Views, Panels, and Context modules.
 
 Best Practice
 Plan your display architecture to render content only when needed . Optimize and reuse as much as possible. Always separate logic and presentation. Start with a solid base theme and learn it thoroughly. The ease of changing the look and feel of your website is an indication of good display architecture.
 
-#Architecture: Site or Functionality
+## Architecture: Site or Functionality
 Site architecture includes how the site works, the number of modules, and how they interact.
 
 Best Practice
