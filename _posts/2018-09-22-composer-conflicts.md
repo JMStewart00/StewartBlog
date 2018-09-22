@@ -22,7 +22,7 @@ Since I joined Apax last year, I have been working on teams of varying sizes but
 
 So it's bound to happen, but how do we keep our sanity and not break a keyboard or waste endless time figuring out what to do.
 
-###What I DONT do.
+### What I DONT do.
 While reading other blog posts on this I found a practice that I consider not ideal. In most blogposts the first step towards fixing the conflict is usually:
 
 ```
@@ -31,7 +31,7 @@ $ git merge --ours composer.lock
 
 What does this do? This will impose your version of the lock file, which seems fine, but has a catch. The catch here is that by ignoring the remote lock file you are discarding any updates done by the other developer. You may have just rewrote everything already done.
 
-###What I DO do.
+### What I DO do.
 Its a simple switch around.
 
 First I get the other developer's changes by checkout out their file from git:
